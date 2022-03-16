@@ -1,0 +1,30 @@
+.creditos {
+  font-size: 50%;
+  position: absolute;
+  bottom: 0;
+}
+
+.plano-de-fundo {
+  width: 70vw;
+  height: 70vw;
+  min-width: 40%;
+  max-width: 59%;
+  position: absolute;
+  top: 65px;
+  z-index: -1;
+}
+.plano-de-fundo-filho {
+  color: rgba(0, 0, 0, 0.623);
+  width: 70%;
+  min-width: 100%;
+}
+
+body {
+  background-size: cover;
+
+  height: 38em;
+
+  color: rgb(250, 250, 250);
+
+  font-family: 'Asap', sans-serif;
+}

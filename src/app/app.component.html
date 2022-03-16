@@ -1,0 +1,55 @@
+<div class="div-titulo">
+  <p>Distritos de limpeza.</p>
+</div>
+
+<div class="div-painel" *ngIf="distritoSelecionado" id="teste">
+  <img
+    class="logo-distrito"
+    [src]="distritoSelecionado.imagem"
+    alt="Distrito de Limpeza"
+  />
+
+  <p id="teste">
+    <strong>Distrito:</strong> {{ distritoSelecionado.numeroDistrito }}
+  </p>
+  <p><strong>Endereço:</strong>{{ distritoSelecionado.endereco }}</p>
+  <p><strong>Diretoria:</strong> {{ distritoSelecionado.diretoria }}</p>
+  <p><strong>Coordenador:</strong> {{ distritoSelecionado.coordenador }}</p>
+  <p>
+    <strong>Chefe de Distrito:</strong>
+    {{ distritoSelecionado.chefeDeDistrito }}
+  </p>
+  <p>
+    <strong>Auxiliar Administrativo:</strong>
+    {{ distritoSelecionado.auxiliarAdministrativo }}
+  </p>
+  <p>
+    <strong>Área do Distrito:</strong>
+    {{ distritoSelecionado.area }} Km²
+  </p>
+  <p>
+    <strong>Bairros Atendidos:</strong>
+    {{ distritoSelecionado.bairrosAtendidos }}
+  </p>
+  <p>
+    <strong>Tamanho:</strong>
+    {{ distritoSelecionado.tamanho }}
+  </p>
+</div>
+
+<div class="div-pai-mapa" *ngFor="let distrito of distritos; index as i">
+  <img
+    (click)="clicouNoDistrito(distrito)"
+    class="mapa-distrito distrito-{{ i }}"
+    [src]="distrito.imagem"
+    alt="Distrito de Limpeza"
+  />
+</div>
+
+<div class="plano-de-fundo">
+  <img
+    class="plano-de-fundo-filho"
+    src="https://sat02pap002files.storage.live.com/y4m5ygZiGR1msGm4Tv3RTIAYwK4M3cDRFrvYQYW7rrJw4aNDHZtQ6VyQ8-11gzVbWpG2rdp7fqlyASbThpb_L9KyRPrq9WJkMDycWEeyYy40QPMcDT5TfGfd-QwZ2kGHf9AQF5qn9O6HRS0kxjQgiDL01zfXhoz20JEzLLQLIOh8OvkMAbOBZ0qwDWgI8Pp93nG?width=3868&height=2778&cropmode=none"
+    alt="Distrito de Limpeza"
+  />
+</div>

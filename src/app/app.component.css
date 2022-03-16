@@ -1,0 +1,229 @@
+.div-painel {
+  background-color: rgba(155, 89, 27, 0.904);
+  padding: 10px;
+  text-align: left;
+  border-radius: 20px;
+
+  min-width: 30%;
+  width: 30%;
+  max-width: 35%;
+  position: relative;
+  top: 0.6%;
+  left: 65%;
+  font-size: 12px;
+
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+
+.div-titulo {
+  text-align: center;
+  background-color: rgba(155, 89, 27, 0.904);
+  padding: 10px;
+  border-radius: 10px;
+  width: 30%;
+  min-width: 30%;
+  max-width: 50%;
+  position: absolute;
+  top: 2%;
+}
+
+.div-pai-mapa {
+  width: 100vw;
+  height: 100vw;
+  min-width: 40%;
+  max-width: 53%;
+  min-height: 10px;
+  max-height: 10px;
+  float: left;
+  position: absolute;
+  top: 65px;
+}
+
+p {
+  margin: 2px;
+}
+
+.logo-distrito {
+  width: 15%;
+  left: 90px;
+  top: 80px;
+}
+
+.distrito-0 {
+  width: 10%;
+  position: relative;
+  top: 10%;
+  left: 12%;
+  margin-top: 14%;
+  min-width: 10%;
+  max-width: 100%;
+}
+
+.distrito-1 {
+  width: 10%;
+  position: relative;
+  left: 29%;
+  top: 10%;
+  margin-top: 3%;
+  min-width: 10%;
+  max-width: 100%;
+}
+
+.distrito-2 {
+  width: 7%;
+  position: relative;
+  left: 35%;
+  top: 10%;
+  margin-top: 11%;
+  min-width: 7%;
+  max-width: 100%;
+}
+
+.distrito-3 {
+  width: 5%;
+  position: relative;
+  left: 22%;
+  top: 10%;
+  margin-top: 28%;
+  min-width: 5%;
+  max-width: 100%;
+}
+
+.distrito-4 {
+  width: 6%;
+  position: relative;
+  left: 32%;
+  top: 10%;
+  margin-top: 35%;
+  min-width: 5%;
+  max-width: 100%;
+}
+
+.distrito-5 {
+  width: 7%;
+  position: relative;
+  left: 27%;
+  top: 7%;
+  margin-top: 22%;
+  min-width: 5%;
+  max-width: 100%;
+}
+
+.distrito-6 {
+  width: 7%;
+  position: relative;
+  left: 43%;
+  top: 7%;
+  margin-top: 25%;
+  min-width: 5%;
+  max-width: 100%;
+}
+
+.distrito-7 {
+  width: 5%;
+  position: relative;
+  left: 41%;
+  top: 10%;
+  margin-top: 17%;
+  min-width: 5%;
+  max-width: 100%;
+}
+
+.distrito-8 {
+  width: 7%;
+  position: relative;
+  left: 38%;
+  top: 10%;
+  margin-top: 42%;
+  min-width: 5%;
+  max-width: 100%;
+}
+
+.distrito-9 {
+  width: 10%;
+  position: relative;
+  left: 62%;
+  top: 10%;
+  margin-top: 23%;
+  min-width: 5%;
+  max-width: 100%;
+}
+
+.distrito-10 {
+  width: 8%;
+  position: relative;
+  left: 62%;
+  top: 10%;
+  margin-top: 54%;
+  min-width: 5%;
+  max-width: 100%;
+}
+
+.distrito-11 {
+  width: 7%;
+  position: relative;
+  left: 50%;
+  top: 10%;
+  margin-top: 15%;
+  min-width: 5%;
+  max-width: 100%;
+}
+
+.distrito-12 {
+  width: 6%;
+  position: relative;
+  left: 10%;
+  top: 10%;
+  margin-top: 24%;
+  min-width: 5%;
+  max-width: 100%;
+}
+
+.distrito-13 {
+  width: 8%;
+  position: relative;
+  left: 55%;
+  top: 10%;
+  margin-top: 45%;
+  min-width: 5%;
+  max-width: 100%;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
